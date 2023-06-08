@@ -1,0 +1,208 @@
+@media (max-width:992px) {
+    /* =================
+        header responsive
+    =====================*/
+    .inner_header nav ul{
+        display: none;
+    
+    }
+   
+    .inner_header nav a i.bar{
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    /* =================
+        banner responsive
+    =====================*/
+    .inner_banner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .inner_banner .banner_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 75%;
+        padding-top: 100px;
+    }
+    /* =================
+        intro Responsive
+    =====================*/
+    .inner_intro .intro_text{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    
+    .inner_intro .intro_text{
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+    }
+    .inner_intro .intro_text .btn_read_more{
+        margin:30px auto 0px auto ;
+    }
+    .inner_intro .intro_img{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    .inner_intro .intro_img img{
+        height: 100%;
+    }
+    /* =================
+        value Responsive
+    =====================*/
+    .value_section_header p{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .inner_value{
+        row-gap: 25px;
+    }
+    .inner_value .value_box{
+        height: 100%;
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    .inner_value .value_box img{
+        padding: 30px 50px;
+        max-width: 100%;
+    }
+    /* =================
+        number Responsive
+    =====================*/
+    .inner_number .number_box{
+        flex-basis: 49%;
+        max-width: 350px;
+             
+    }
+     /* =================
+        feature Responsive
+    =====================*/
+    .inner_feature .feature_img{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    .inner_feature .feature_img img{
+        padding-bottom: 50px;
+    }
+    .inner_feature .feature_text {
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    /* ==================
+    feature "Tab" responsive
+    =====================*/
+    .feature_tab_text{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    .feature_tab_img{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    /* ==================
+    feature "Icon" style
+    =====================*/
+    #feature_icon_section h3{
+       max-width: 700px;
+       margin: 0 auto;
+    }
+    .inner_feature_icon .feature_icon_img{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    .inner_feature_icon .feature_icon_text{
+        flex-basis: 100%;
+        max-width: 700px;
+    }
+    /* ==================
+    Service Responsive
+    =====================*/
+    .inner_service{
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+    .inner_service .service_box{
+        flex-basis: 50%;
+        max-width: 350px;
+    }
+ 
+}
+
+@media (max-width:768px) {
+    /* =================
+        intro "Tab" Responsive
+    =====================*/
+    .inner_intro .intro_text{
+        max-width: 500px;
+    }
+    .inner_intro .intro_img{
+        max-width: 500px;
+    }
+    /* =================
+        value "Tab" Responsive
+    =====================*/
+    .value_section_header p{
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .inner_value .value_box{
+        max-width: 500px;
+    }
+    /* =================
+        number "Tab" Responsive
+    =====================*/
+    .inner_number .number_box{
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+    /* =================
+        feature Responsive
+    =====================*/
+    .inner_feature .feature_text .feature_text_box{
+        flex-basis: 100%;
+        max-width:500px ;
+    }
+    .inner_feature .feature_img{
+        max-width: 500px;
+    }
+    /* ==================
+    feature "Tab" responsive
+    =====================*/
+    .feature_tab_text{
+        max-width: 500px;
+    }
+    .feature_tab_img{
+        max-width: 500px;
+    }
+    .feature_tab_header h3{
+        font-size: 28px;
+    }
+    /* ==================
+    feature "Icon" style
+    =====================*/
+    #feature_icon_section h3{
+        font-size: 28px;
+        max-width: 500px;
+     }
+     .inner_feature_icon .feature_icon_img{
+        max-width: 500px;
+    }
+    .inner_feature_icon .feature_icon_text .feature_icon_text_box{
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+    /* ==================
+    Service Responsive
+    =====================*/
+    .inner_service .service_box{
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+}
