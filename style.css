@@ -99,21 +99,20 @@ header#main_header{
 
 .inner_header .btn_get_strarted{
     background-color: var(--secondary_color);
-    color: white;
     padding: 8px 20px ;
     margin-left: 30px;
     margin-right: 0px;
     line-height: 24px;
     border-radius: 4px;
-
+    color: white
 }
 .inner_header .btn_get_strarted:hover{
     background-color: #1420c9;
+    color: white;
 }
 .inner_header nav ul li a .material-symbols-outlined{
     color: #013289; 
     font-size: 12px;
-
 }
 /* ==================
     banner style
@@ -711,4 +710,54 @@ header#main_header{
  }
  .inner_service .service_box.pink:hover .icon{
      background-color: #fff;
+ }
+ /* ==================
+    pricing section
+ ===========================*/
+ .pricing_header{
+    margin: 100px 0 30px 0;
+    text-align: center;
+ }
+ .pricing_header h4{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+ }
+ .pricing_header h2{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+ }
+ .inner_pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2%;
+ }
+ .inner_pricing .pricing_box{
+    flex-basis: 23.5%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+ }
+ .inner_pricing .pricing_box:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+ }
+ .inner_pricing .pricing_box .pricing_img{
+    max-width: 100%;
+ }
+ .inner_pricing .pricing_box .pricing_img img{
+    width: 100%;
  }
