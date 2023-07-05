@@ -151,6 +151,15 @@
   .inner_faq .faq_content_box.zero{
     border-bottom: unset;
   }
+  /* Portfolio section */
+  .inner_portfolio .portfolio_content{
+    margin: 0 auto;
+    max-width: 700px;
+    column-gap: 4%;
+  }
+  .inner_portfolio .portfolio_content .portfolio_img{
+    flex-basis: 48%;
+ }
 }
 
 @media (max-width: 768px) {
@@ -233,5 +242,12 @@
     /* faq section */
     .inner_faq .faq_content_box{
         max-width: 500px;
-      }
+    }
+     /* Portfolio section */
+  .inner_portfolio .portfolio_content{
+    max-width: 500px;
+  }
+  .inner_portfolio .portfolio_content .portfolio_img{
+    flex-basis: 100%;
+ }
 }
