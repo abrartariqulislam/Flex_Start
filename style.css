@@ -1056,23 +1056,29 @@ header#main_header {
 .inner_team .team_area .team_box .social_icon{
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: -100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 8px;
   border-radius: 4px;
   transition: 0.5s;
   background: rgba(255, 255, 255, 0.3);
   z-index: 2;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 .inner_team .team_area .team_box .social_icon a{
   transition: color 0.3s;
   color: rgba(1, 42, 112, 0.5);
-  margin: 0 12px;
+  margin: 0 11px;
   display: block;
   text-align: center;
   font-size: 20px;
+}
+.inner_team .team_area .team_box .social_icon a:hover{
+  color: rgba(1, 42, 112, 0.8);
+}
+.inner_team .team_area .team_box:hover .social_icon{
+  right: 8px;
 }
