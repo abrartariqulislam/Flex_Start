@@ -992,6 +992,7 @@ header#main_header {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   position: relative;
+  height: 502px;
 }
 .inner_team .team_area .team_box:hover{
   transform: scale(1.08);
@@ -1032,7 +1033,7 @@ header#main_header {
   transition: 0.3s;
 }
 .inner_team .team_area .team_box .team_details{
-  padding: 10px 15px 20px 15px;
+  padding: 10px 15px 30px 15px;
 }
 .inner_team .team_area .team_box .team_details h4{
   font-weight: 700;
