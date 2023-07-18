@@ -1,16 +1,19 @@
-@media (max-width: 992px) {
+@media (max-width: 1050px){
   /* =================
         header responsive
     =====================*/
   .inner_header nav ul {
     display: none;
   }
-
+  
   .inner_header nav a i.bar {
     display: inline-block;
     margin-right: 10px;
     font-size: 30px;
   }
+}
+
+@media (max-width: 992px) {
   /* =================
         banner responsive
     =====================*/
@@ -160,8 +163,15 @@
   .inner_portfolio .portfolio_content .portfolio_img{
     flex-basis: 48%;
  }
+/* team section */
+.inner_team .team_area{
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 20px;
 }
-
+ .inner_team .team_area .team_box{
+  flex-basis: 49%;
+}
 @media (max-width: 768px) {
   /* =================
         intro "Tab" Responsive
@@ -250,4 +260,5 @@
   .inner_portfolio .portfolio_content .portfolio_img{
     flex-basis: 100%;
  }
+}
 }
