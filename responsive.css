@@ -169,8 +169,11 @@
   column-gap: 2%;
   row-gap: 20px;
 }
- .inner_team .team_area .team_box{
+.inner_team .team_area .team_box{
+   max-width: 350px;
   flex-basis: 49%;
+  height: 560px;
+ }
 }
 @media (max-width: 768px) {
   /* =================
@@ -260,5 +263,10 @@
   .inner_portfolio .portfolio_content .portfolio_img{
     flex-basis: 100%;
  }
-}
+ /* team section */
+ .inner_team .team_area .team_box{
+  max-width: 500px;
+  flex-basis: 100%;
+  height: auto;
+ }
 }
