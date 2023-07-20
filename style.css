@@ -1083,3 +1083,93 @@ header#main_header {
 .inner_team .team_area .team_box:hover .social_icon{
   right: 8px;
 }
+/* ==================
+    team section
+ ===========================*/
+ .inner_blog{
+  margin: 50px 0;
+ }
+ .inner_blog h5{
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+  text-align: center;
+}
+.inner_blog h2{
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.inner_blog .blog_area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2%;
+}
+.inner_blog .blog_area .blog_box{
+  flex-basis: 32%;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 530px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.inner_blog .blog_area .blog_box .blog_img{
+  overflow: hidden;
+}
+.inner_blog .blog_area .blog_box .blog_img img{
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.inner_blog .blog_area .blog_box .blog_img img:hover{
+  transform: rotate(6deg) scale(1.2);
+}
+.inner_blog .blog_area .blog_box .blog_details{
+  padding: 30px;
+
+}
+.inner_blog .blog_area .blog_box .blog_details span{
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(1, 41, 112, 0.6);
+  display: block;
+  margin-bottom: 10px;
+}
+.inner_blog .blog_area .blog_box .blog_details p{
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+  position: relative;
+  transition: 0.3s;
+  height: 132px;
+}
+.inner_blog .blog_area .blog_box .blog_details p:hover{
+  color: #4154f1;
+}
+.inner_blog .blog_area .blog_box .blog_details a{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  color: #4154f1;
+  position: relative;
+}
+.inner_blog .blog_area .blog_box .blog_details a:hover{
+  color: #717ff5;
+}

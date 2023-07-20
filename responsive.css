@@ -174,6 +174,19 @@
   flex-basis: 49%;
   height: 560px;
  }
+ /* blog section */
+ .inner_blog .blog_area{
+  flex-wrap: wrap;
+  row-gap: 30px;
+ }
+ .inner_blog .blog_area .blog_box{
+  max-width: 700px;
+  flex-basis: 100%;
+  height: 100%;
+}
+.inner_blog .blog_area .blog_box .blog_details p{
+  height: 100%;
+}
 }
 @media (max-width: 768px) {
   /* =================
