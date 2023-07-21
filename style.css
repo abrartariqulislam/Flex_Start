@@ -30,7 +30,7 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
 }
-body {
+body, textarea,button, form input {
   font-family: "Open Sans", sans-serif;
 }
 /* ===============
@@ -1172,4 +1172,150 @@ header#main_header {
 }
 .inner_blog .blog_area .blog_box .blog_details a:hover{
   color: #717ff5;
+}
+/* ==================
+    team section
+ ===========================*/
+ .inner_contact{
+  margin: 50px 0;
+  margin-bottom: 300px;
+ }
+ .inner_contact h5{
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+  text-align: center;
+}
+.inner_contact h2{
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.inner_contact .contact_area{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 2%;
+}
+.inner_contact .contact_area .contact_info{
+  flex-basis: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+  row-gap: 25px;
+  flex-wrap: wrap;
+}
+.inner_contact .contact_area .contact_info .contact_info_box{
+  flex-basis: 47.5%;
+  background: #fafbff;
+  padding: 30px;
+  height: 206px;
+}
+.inner_contact .contact_area .contact_info .contact_info_box i{
+  font-size: 38px;
+  line-height: 0;
+  color: #4154f1;
+}
+.inner_contact .contact_area .contact_info .contact_info_box h3{
+  font-size: 20px;
+  color: #012970;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+.inner_contact .contact_area .contact_info .contact_info_box p{
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.inner_contact .contact_area .contact_form{
+  flex-basis: 49%;
+  background: #fafbff;
+  padding: 30px;
+  height: 100%;
+}
+.inner_contact .contact_area .contact_form .name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%;
+}
+.inner_contact .contact_area .contact_form .name input{
+  flex-basis: 47.5%;
+  color: #212529;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  border-radius: 0;
+  border: 1px solid #dee2e6 ;
+  outline:1px solid transparent;
+  height: 45px;
+  padding:10px 15px;
+  transition: 0.5s;
+}
+.inner_contact .contact_area .contact_form .subject{
+  max-width: 100%;
+  margin: 30px 0;
+}
+.inner_contact .contact_area .contact_form .subject input{
+  width: 100%;
+  color: #212529;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  border-radius: 0;
+  border: 1px solid #dee2e6 ;
+  outline:1px solid transparent;
+  height: 45px;
+  padding:10px 15px;
+  transition: 0.5s;
+}
+.inner_contact .contact_area .contact_form  input:focus{
+  border-color: #4154f1;
+  border-radius: 0;
+}
+.inner_contact .contact_area .contact_form .message{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.inner_contact .contact_area .contact_form .message textarea{
+  width: 100%;
+  color: #212529;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 14px;
+  border-radius: 0;
+  border: 1px solid #dee2e6;
+  outline: 1px solid transparent;
+  height: 150px;
+  padding:10px 15px;
+  transition: 0.5s;
+}
+.inner_contact .contact_area .contact_form .message textarea:focus{
+  border-color:#4154f1 ;
+  border-radius: 0;
+}
+.inner_contact .contact_area .contact_form .form_btn{
+  text-align: center;
+}
+.inner_contact .contact_area .contact_form .form_btn button{
+  background: #4154f1;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.inner_contact .contact_area .contact_form .form_btn button:hover{
+  background: #5969f3;
 }
