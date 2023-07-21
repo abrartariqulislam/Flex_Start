@@ -205,6 +205,10 @@
   flex-basis: 48.5%;
   height: 100%;
 }
+/* newsletter */
+.inner_newsletter .subscribe{
+  max-width: 700px;
+}
 }
 @media (max-width: 768px) {
   /* =================
@@ -318,5 +322,9 @@
 }
 .inner_contact .contact_area .contact_form .name input{
   flex-basis: 100%;
+}
+/* newsletter */
+.inner_newsletter .subscribe{
+  max-width: 500px;
 }
 }

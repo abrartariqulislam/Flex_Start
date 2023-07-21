@@ -1177,7 +1177,7 @@ header#main_header {
     team section
  ===========================*/
  .inner_contact{
-  margin: 50px 0;
+  margin: 50px 0 30px 0;
  }
  .inner_contact h5{
   font-size: 13px;
@@ -1306,7 +1306,7 @@ header#main_header {
 .inner_contact .contact_area .contact_form .form_btn{
   text-align: center;
 }
-.inner_contact .contact_area .contact_form .form_btn button{
+.inner_contact .contact_area .contact_form .form_btn button ,.subscribe_btn button{
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
@@ -1314,7 +1314,51 @@ header#main_header {
   transition: 0.4s;
   border-radius: 4px;
   font-size: 16px;
+  cursor: pointer;
 }
-.inner_contact .contact_area .contact_form .form_btn button:hover{
+.inner_contact .contact_area .contact_form .form_btn button:hover ,.subscribe_btn button:hover{
   background: #5969f3;
+}
+/* ===================
+newsletter section
+====================*/
+#newsletter_section{
+  background-color: #F6F9FF;
+  border: 1px solid #E1ECFF;
+  padding: 50px 0;
+}
+.inner_newsletter h4{
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+.inner_newsletter p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.inner_newsletter .subscribe{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  max-width: 550px;
+  height: 50px;
+  background: #fff;
+  padding: 6px 6px 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #e1ecff;
+}
+.inner_newsletter .subscribe  input{
+  flex-grow: 1;
+  padding: 0px 10px;
+  width: 100%;
+  height: 38px;
+  border: unset;
 }
