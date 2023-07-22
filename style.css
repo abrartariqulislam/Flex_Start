@@ -60,10 +60,10 @@ header#main_header {
   max-width: 100%;
   white-space: nowrap;
 }
-.inner_header img {
+.inner_header img,.flex_start a img {
   padding-left: 10px;
 }
-.inner_header span {
+.inner_header span, .flex_start a span{
   font-family: "Nunito", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -1361,4 +1361,91 @@ newsletter section
   width: 100%;
   height: 38px;
   border: unset;
+}
+/* ===================
+footer details section
+====================*/
+#footer_details_section{
+  background: white url(image/footer-bg.png) no-repeat right top;
+  background-size: contain;
+  border-bottom: 1px solid #e1ecff;
+  padding: 50px;
+  margin-bottom: 300px;
+}
+.inner_details{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap:2%;
+}
+.inner_details .flex_start{
+  flex-basis: 37%;
+}
+.inner_details .flex_start p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.inner_details .flex_start  .social_icon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+  margin-top: 15px;
+}
+.inner_details .flex_start  .social_icon a{
+  transition: color 0.3s;
+  color: rgba(1, 42, 112, 0.5);
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+.inner_details .flex_start  .social_icon a:hover{
+  color: rgba(1, 42, 112, 0.8);
+}
+.inner_details  .links{
+  flex-basis: 15%;
+}
+.inner_details  .links h4 ,.inner_details .servises h4 ,.inner_details .contact h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #012970;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+.inner_details  .links ul li  ,.inner_details .servises ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.inner_details  .links ul li i ,.inner_details .servises ul li i{
+  padding-right: 5px;
+  color: #d0d4fc;
+  font-size: 12px;
+  line-height: 0;
+}
+.inner_details  .links ul li a ,.inner_details .servises ul li a{
+  color: #013289;
+  transition: 0.3s;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+}
+.inner_details  .links ul li a:hover ,.inner_details .servises ul li a:hover{
+  color: #4154f1;
+}
+.inner_details .servises{
+flex-basis: 17%;
+}
+.inner_details .contact{
+  flex-basis: 25%;
+}
+.inner_details .contact p{
+  line-height: 26px;
+  font-size: 14px;
 }
