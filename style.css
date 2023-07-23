@@ -1451,3 +1451,24 @@ flex-basis: 17%;
   line-height: 26px;
   font-size: 14px;
 }
+/* ===================
+copyright section
+====================*/
+#copyright_section{
+  background-color: #F6F9FF;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.inner_copyright .copyright{
+  text-align: center;
+  color: #012970;
+}
+.inner_copyright .credits{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #012970;
+}
+.inner_copyright .credits a{
+  color: #4154f1;
+}
